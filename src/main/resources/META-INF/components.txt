@@ -1,0 +1,2 @@
+com.company.com.internal.DefaultHelloWorld
+com.company.com.script.HelloWorldScriptService
