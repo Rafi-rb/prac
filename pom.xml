@@ -45,11 +45,13 @@
   </build>
    <distributionManagement>
      <repository>
-      <id>nexus-releases</id>
+      <id>deployment</id>
+       <name>maven-releases</name>
       <url>http://192.168.110.133:8081/repository/maven-releases/</url>
        </repositpry>
     <snapshotRepository>
-      <id>nexus-snapshots</id>
+      <id>deployment</id>
+      <name>maven-snapshots</name>
       <url>http://192.168.110.133:8081/repository/maven-snapshots/</url>
      </snapshotRepository>
   </distributionManagement>
