@@ -48,7 +48,7 @@
       <id>deployment</id>
        <name>maven-releases</name>
       <url>http://192.168.110.133:8081/repository/maven-releases/</url>
-       </repositpry>
+       </repository>
     <snapshotRepository>
       <id>deployment</id>
       <name>maven-snapshots</name>
