@@ -45,12 +45,12 @@
   </build>
    <distributionManagement>
      <repository>
-      <id>deployment</id>
+      <id>99125</id>
        <name>maven-releases</name>
       <url>http://192.168.110.133:8081/repository/maven-releases/</url>
        </repository>
     <snapshotRepository>
-      <id>deployment</id>
+      <id>99125</id>
       <name>maven-snapshots</name>
       <url>http://192.168.110.133:8081/repository/maven-snapshots/</url>
      </snapshotRepository>
