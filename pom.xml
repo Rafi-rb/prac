@@ -44,14 +44,14 @@
     </plugins>
   </build>
    <distributionManagement>
+     <repository>
+      <id>nexus-releases</id>
+      <url>http://192.168.110.133:8081/repository/maven-releases/</url>
+       </repositpry>
     <snapshotRepository>
       <id>nexus-snapshots</id>
       <url>http://192.168.110.133:8081/repository/maven-snapshots/</url>
-    </snapshotRepository>
-    <repository>
-      <id>nexus-releases</id>
-      <url>http://192.168.110.133:8081/repository/maven-releases/</url>
-    </repository>
+     </snapshotRepository>
   </distributionManagement>
   <dependencies>
     <dependency>
